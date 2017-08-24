@@ -99,7 +99,7 @@ handleNameChange(event){
         </div>
           <div className='Wrapper'>
           {starwarz.map((spaceship)=>{
-            return <div className="card" key={spaceship.name} style={{width: 500}}>
+            return <div className="card" key={spaceship.name} style={{width: 400}}>
             <div className="card-block">
             <h4 className="card-title">Vehicle: {spaceship.name}</h4>
             <h5 className="card-text">Model: {spaceship.model}</h5>
